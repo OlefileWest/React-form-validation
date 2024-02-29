@@ -1,0 +1,48 @@
+.app {
+  margin-top: 150px;
+  margin-right: 35%;
+  margin-left: 35%;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+
+#heading {
+  text-align: center;
+}
+
+input {
+  height: 30px;
+  width: 80%;
+  border: 2px solid grey;
+  outline: none;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-left: 15px;
+  padding-left: 15px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+#submit {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  width: 61px;
+  height: 40px;
+  border-radius: 10px;
+  margin-left: 15px;
+  font-size: 15px;
+  border: 1px solid #03a9db;
+  background-color: white;
+  cursor: pointer;
+}
+
+#submit:hover {
+  background-color: #03a9db;
+  color: white;
+}
+
+.errorMessage {
+  font-size: 12px;
+  color: red;
+  margin-left: 20px;
+}
